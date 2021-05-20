@@ -1,0 +1,27 @@
+body{
+	font-family: "Tahoma";
+	font-size: 40px;
+    }
+.item:nth-child(even){
+	background-color: #dfe1e7;
+    }
+.item:nth-child(odd){
+	background-color: #eeeff2;
+   }
+.item:last-of-type{
+	background-color: grey;
+	border: 4px solid black;
+   }
+.item{
+	border-top: 1px solid #687291;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin: 3px;
+    text-align: center;
+   }
+.lol{
+flex-direction: column;
+align-items: center;
+display: flex;
+}

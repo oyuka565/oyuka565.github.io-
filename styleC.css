@@ -1,0 +1,36 @@
+
+body {
+  background-color: blue;
+  background-image: linear-gradient(to right, cyan, yellow);
+  font-family: myFirstFont;
+  font-size: 40px;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
+}
+.item {
+  width: 100px;
+  height: 150px; 
+  justify-content: center;
+  background-color: orange;
+  text-align: center;
+  margin: 5px;
+  transition: width 2s, height 2s, transform 2s;
+  box-shadow: 2px 4px 10px red;
+  animation-name: kk;
+  animation-duration: 3s;
+}
+@keyframes kk{
+  from {background-color: green;}
+  to {background-color: yellow;}
+}
+.lol {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}
+.item:hover {
+  width: 100px;
+  height: 150px;
+  transform: rotate(360deg);
+}
